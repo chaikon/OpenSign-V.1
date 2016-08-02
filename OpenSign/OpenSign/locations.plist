@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<array>
+			<string>12:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>11:00-21:00</string>
+			<string>Rose Tea Café</string>
+		</array>
+		<array>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>12:00-00:00</string>
+			<string>RazzyFresh</string>
+		</array>
+		<array>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>11:00-18:00</string>
+			<string>Conflict Kitchen</string>
+		</array>
+		<array>
+			<string>11:00-21:30</string>
+			<string>11:00-22:00</string>
+			<string>11:00-22:00</string>
+			<string>11:00-22:00</string>
+			<string>11:00-22:00</string>
+			<string>11:00-22:00</string>
+			<string>11:00-22:00</string>
+			<string>Chick&apos;n Bubbly</string>
+		</array>
+		<array>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>10:30-21:00</string>
+			<string>美味しい弁当</string>
+		</array>
+	</array>
+	<array>
+		<array>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>Giant Eagle Murray</string>
+		</array>
+		<array>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>Giant Eagle Centre</string>
+		</array>
+		<array>
+			<string>12:00-17:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-17:30</string>
+			<string>10:00-17:30</string>
+			<string>Carnegie Library Oakland</string>
+		</array>
+		<array>
+			<string>x</string>
+			<string>09:30-17:30</string>
+			<string>09:30-17:30</string>
+			<string>09:30-17:30</string>
+			<string>09:30-17:30</string>
+			<string>09:30-17:30</string>
+			<string>09:30-17:30</string>
+			<string>Seoul Mart</string>
+		</array>
+	</array>
+	<array>
+		<array>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>06:00-00:00</string>
+			<string>Giant Eagle Centre</string>
+		</array>
+		<array>
+			<string>12:00-17:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-20:00</string>
+			<string>10:00-17:30</string>
+			<string>10:00-17:30</string>
+			<string>Carnegie Library Oakland</string>
+		</array>
+		<array>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>06:00-01:00</string>
+			<string>Giant Eagle Murray</string>
+		</array>
+	</array>
+</array>
+</plist>

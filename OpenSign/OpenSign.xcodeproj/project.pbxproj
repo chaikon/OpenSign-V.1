@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2EF3801C922B14007642CF /* locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD2EF37F1C922B14007642CF /* locations.plist */; };
+		CD751B711D4F3336000AE9BA /* Rice Bowl-100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD751B701D4F3336000AE9BA /* Rice Bowl-100@2x.png */; };
+		CD751B731D4F333C000AE9BA /* Categorize-100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD751B721D4F333C000AE9BA /* Categorize-100@2x.png */; };
+		CD751B761D4F358F000AE9BA /* Categorize-66@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD751B741D4F358F000AE9BA /* Categorize-66@2x.png */; };
+		CD751B771D4F358F000AE9BA /* Rice Bowl-66@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD751B751D4F358F000AE9BA /* Rice Bowl-66@2x.png */; };
+		CDAB06F51C8ABC8800FDDBD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB06F41C8ABC8800FDDBD2 /* main.m */; };
+		CDAB06F81C8ABC8800FDDBD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB06F71C8ABC8800FDDBD2 /* AppDelegate.m */; };
+		CDAB06FB1C8ABC8800FDDBD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB06FA1C8ABC8800FDDBD2 /* ViewController.m */; };
+		CDAB06FE1C8ABC8800FDDBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAB06FC1C8ABC8800FDDBD2 /* Main.storyboard */; };
+		CDAB07011C8ABC8800FDDBD2 /* OpenSign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDAB06FF1C8ABC8800FDDBD2 /* OpenSign.xcdatamodeld */; };
+		CDAB07031C8ABC8800FDDBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB07021C8ABC8800FDDBD2 /* Assets.xcassets */; };
+		CDAB07061C8ABC8800FDDBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAB07041C8ABC8800FDDBD2 /* LaunchScreen.storyboard */; };
+		CDAB07111C8ABC8800FDDBD2 /* OpenSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB07101C8ABC8800FDDBD2 /* OpenSignTests.m */; };
+		CDAB071C1C8ABC8800FDDBD2 /* OpenSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB071B1C8ABC8800FDDBD2 /* OpenSignUITests.m */; };
+		CDAB072B1C8AC96F00FDDBD2 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB072A1C8AC96F00FDDBD2 /* CollectionViewController.m */; };
+		CDAB072E1C8C24CD00FDDBD2 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB072D1C8C24CD00FDDBD2 /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAB070D1C8ABC8800FDDBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAB06E81C8ABC8800FDDBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAB06EF1C8ABC8800FDDBD2;
+			remoteInfo = OpenSign;
+		};
+		CDAB07181C8ABC8800FDDBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAB06E81C8ABC8800FDDBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAB06EF1C8ABC8800FDDBD2;
+			remoteInfo = OpenSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD2EF37F1C922B14007642CF /* locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locations.plist; sourceTree = "<group>"; };
+		CD751B701D4F3336000AE9BA /* Rice Bowl-100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rice Bowl-100@2x.png"; sourceTree = "<group>"; };
+		CD751B721D4F333C000AE9BA /* Categorize-100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Categorize-100@2x.png"; sourceTree = "<group>"; };
+		CD751B741D4F358F000AE9BA /* Categorize-66@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Categorize-66@2x.png"; sourceTree = "<group>"; };
+		CD751B751D4F358F000AE9BA /* Rice Bowl-66@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rice Bowl-66@2x.png"; sourceTree = "<group>"; };
+		CDAB06F01C8ABC8800FDDBD2 /* OpenSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAB06F41C8ABC8800FDDBD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDAB06F61C8ABC8800FDDBD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDAB06F71C8ABC8800FDDBD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDAB06F91C8ABC8800FDDBD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDAB06FA1C8ABC8800FDDBD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDAB06FD1C8ABC8800FDDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAB07001C8ABC8800FDDBD2 /* OpenSign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenSign.xcdatamodel; sourceTree = "<group>"; };
+		CDAB07021C8ABC8800FDDBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAB07051C8ABC8800FDDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAB07071C8ABC8800FDDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAB070C1C8ABC8800FDDBD2 /* OpenSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAB07101C8ABC8800FDDBD2 /* OpenSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSignTests.m; sourceTree = "<group>"; };
+		CDAB07121C8ABC8800FDDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAB07171C8ABC8800FDDBD2 /* OpenSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAB071B1C8ABC8800FDDBD2 /* OpenSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSignUITests.m; sourceTree = "<group>"; };
+		CDAB071D1C8ABC8800FDDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAB07291C8AC96F00FDDBD2 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		CDAB072A1C8AC96F00FDDBD2 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		CDAB072C1C8C24CD00FDDBD2 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CDAB072D1C8C24CD00FDDBD2 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAB06ED1C8ABC8800FDDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB07091C8ABC8800FDDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB07141C8ABC8800FDDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAB06E71C8ABC8800FDDBD2 = {
+			isa = PBXGroup;
+			children = (
+				CDAB06F21C8ABC8800FDDBD2 /* OpenSign */,
+				CDAB070F1C8ABC8800FDDBD2 /* OpenSignTests */,
+				CDAB071A1C8ABC8800FDDBD2 /* OpenSignUITests */,
+				CDAB06F11C8ABC8800FDDBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAB06F11C8ABC8800FDDBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB06F01C8ABC8800FDDBD2 /* OpenSign.app */,
+				CDAB070C1C8ABC8800FDDBD2 /* OpenSignTests.xctest */,
+				CDAB07171C8ABC8800FDDBD2 /* OpenSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAB06F21C8ABC8800FDDBD2 /* OpenSign */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB06F61C8ABC8800FDDBD2 /* AppDelegate.h */,
+				CDAB06F71C8ABC8800FDDBD2 /* AppDelegate.m */,
+				CDAB06F91C8ABC8800FDDBD2 /* ViewController.h */,
+				CDAB06FA1C8ABC8800FDDBD2 /* ViewController.m */,
+				CDAB06FC1C8ABC8800FDDBD2 /* Main.storyboard */,
+				CD751B721D4F333C000AE9BA /* Categorize-100@2x.png */,
+				CDAB072C1C8C24CD00FDDBD2 /* CollectionViewCell.h */,
+				CD751B701D4F3336000AE9BA /* Rice Bowl-100@2x.png */,
+				CD751B741D4F358F000AE9BA /* Categorize-66@2x.png */,
+				CD751B751D4F358F000AE9BA /* Rice Bowl-66@2x.png */,
+				CDAB072D1C8C24CD00FDDBD2 /* CollectionViewCell.m */,
+				CDAB07291C8AC96F00FDDBD2 /* CollectionViewController.h */,
+				CDAB072A1C8AC96F00FDDBD2 /* CollectionViewController.m */,
+				CDAB07021C8ABC8800FDDBD2 /* Assets.xcassets */,
+				CDAB07041C8ABC8800FDDBD2 /* LaunchScreen.storyboard */,
+				CDAB07071C8ABC8800FDDBD2 /* Info.plist */,
+				CDAB06FF1C8ABC8800FDDBD2 /* OpenSign.xcdatamodeld */,
+				CD2EF37F1C922B14007642CF /* locations.plist */,
+				CDAB06F31C8ABC8800FDDBD2 /* Supporting Files */,
+			);
+			path = OpenSign;
+			sourceTree = "<group>";
+		};
+		CDAB06F31C8ABC8800FDDBD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB06F41C8ABC8800FDDBD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDAB070F1C8ABC8800FDDBD2 /* OpenSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB07101C8ABC8800FDDBD2 /* OpenSignTests.m */,
+				CDAB07121C8ABC8800FDDBD2 /* Info.plist */,
+			);
+			path = OpenSignTests;
+			sourceTree = "<group>";
+		};
+		CDAB071A1C8ABC8800FDDBD2 /* OpenSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAB071B1C8ABC8800FDDBD2 /* OpenSignUITests.m */,
+				CDAB071D1C8ABC8800FDDBD2 /* Info.plist */,
+			);
+			path = OpenSignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAB06EF1C8ABC8800FDDBD2 /* OpenSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAB07201C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSign" */;
+			buildPhases = (
+				CDAB06EC1C8ABC8800FDDBD2 /* Sources */,
+				CDAB06ED1C8ABC8800FDDBD2 /* Frameworks */,
+				CDAB06EE1C8ABC8800FDDBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSign;
+			productName = OpenSign;
+			productReference = CDAB06F01C8ABC8800FDDBD2 /* OpenSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAB070B1C8ABC8800FDDBD2 /* OpenSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAB07231C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSignTests" */;
+			buildPhases = (
+				CDAB07081C8ABC8800FDDBD2 /* Sources */,
+				CDAB07091C8ABC8800FDDBD2 /* Frameworks */,
+				CDAB070A1C8ABC8800FDDBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAB070E1C8ABC8800FDDBD2 /* PBXTargetDependency */,
+			);
+			name = OpenSignTests;
+			productName = OpenSignTests;
+			productReference = CDAB070C1C8ABC8800FDDBD2 /* OpenSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDAB07161C8ABC8800FDDBD2 /* OpenSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAB07261C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSignUITests" */;
+			buildPhases = (
+				CDAB07131C8ABC8800FDDBD2 /* Sources */,
+				CDAB07141C8ABC8800FDDBD2 /* Frameworks */,
+				CDAB07151C8ABC8800FDDBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAB07191C8ABC8800FDDBD2 /* PBXTargetDependency */,
+			);
+			name = OpenSignUITests;
+			productName = OpenSignUITests;
+			productReference = CDAB07171C8ABC8800FDDBD2 /* OpenSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAB06E81C8ABC8800FDDBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chaikon;
+				TargetAttributes = {
+					CDAB06EF1C8ABC8800FDDBD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7NCQUHKBD;
+					};
+					CDAB070B1C8ABC8800FDDBD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7NCQUHKBD;
+						TestTargetID = CDAB06EF1C8ABC8800FDDBD2;
+					};
+					CDAB07161C8ABC8800FDDBD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7NCQUHKBD;
+						TestTargetID = CDAB06EF1C8ABC8800FDDBD2;
+					};
+				};
+			};
+			buildConfigurationList = CDAB06EB1C8ABC8800FDDBD2 /* Build configuration list for PBXProject "OpenSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAB06E71C8ABC8800FDDBD2;
+			productRefGroup = CDAB06F11C8ABC8800FDDBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAB06EF1C8ABC8800FDDBD2 /* OpenSign */,
+				CDAB070B1C8ABC8800FDDBD2 /* OpenSignTests */,
+				CDAB07161C8ABC8800FDDBD2 /* OpenSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAB06EE1C8ABC8800FDDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAB07061C8ABC8800FDDBD2 /* LaunchScreen.storyboard in Resources */,
+				CD2EF3801C922B14007642CF /* locations.plist in Resources */,
+				CDAB07031C8ABC8800FDDBD2 /* Assets.xcassets in Resources */,
+				CD751B771D4F358F000AE9BA /* Rice Bowl-66@2x.png in Resources */,
+				CDAB06FE1C8ABC8800FDDBD2 /* Main.storyboard in Resources */,
+				CD751B761D4F358F000AE9BA /* Categorize-66@2x.png in Resources */,
+				CD751B731D4F333C000AE9BA /* Categorize-100@2x.png in Resources */,
+				CD751B711D4F3336000AE9BA /* Rice Bowl-100@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB070A1C8ABC8800FDDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB07151C8ABC8800FDDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAB06EC1C8ABC8800FDDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAB072E1C8C24CD00FDDBD2 /* CollectionViewCell.m in Sources */,
+				CDAB07011C8ABC8800FDDBD2 /* OpenSign.xcdatamodeld in Sources */,
+				CDAB06FB1C8ABC8800FDDBD2 /* ViewController.m in Sources */,
+				CDAB06F81C8ABC8800FDDBD2 /* AppDelegate.m in Sources */,
+				CDAB072B1C8AC96F00FDDBD2 /* CollectionViewController.m in Sources */,
+				CDAB06F51C8ABC8800FDDBD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB07081C8ABC8800FDDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAB07111C8ABC8800FDDBD2 /* OpenSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB07131C8ABC8800FDDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAB071C1C8ABC8800FDDBD2 /* OpenSignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAB070E1C8ABC8800FDDBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAB06EF1C8ABC8800FDDBD2 /* OpenSign */;
+			targetProxy = CDAB070D1C8ABC8800FDDBD2 /* PBXContainerItemProxy */;
+		};
+		CDAB07191C8ABC8800FDDBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAB06EF1C8ABC8800FDDBD2 /* OpenSign */;
+			targetProxy = CDAB07181C8ABC8800FDDBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAB06FC1C8ABC8800FDDBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAB06FD1C8ABC8800FDDBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAB07041C8ABC8800FDDBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAB07051C8ABC8800FDDBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAB071E1C8ABC8800FDDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDAB071F1C8ABC8800FDDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAB07211C8ABC8800FDDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDAB07221C8ABC8800FDDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDAB07241C8ABC8800FDDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSign.app/OpenSign";
+			};
+			name = Debug;
+		};
+		CDAB07251C8ABC8800FDDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSign.app/OpenSign";
+			};
+			name = Release;
+		};
+		CDAB07271C8ABC8800FDDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDAB07281C8ABC8800FDDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaikon.OpenSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAB06EB1C8ABC8800FDDBD2 /* Build configuration list for PBXProject "OpenSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAB071E1C8ABC8800FDDBD2 /* Debug */,
+				CDAB071F1C8ABC8800FDDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAB07201C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAB07211C8ABC8800FDDBD2 /* Debug */,
+				CDAB07221C8ABC8800FDDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAB07231C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAB07241C8ABC8800FDDBD2 /* Debug */,
+				CDAB07251C8ABC8800FDDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAB07261C8ABC8800FDDBD2 /* Build configuration list for PBXNativeTarget "OpenSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAB07271C8ABC8800FDDBD2 /* Debug */,
+				CDAB07281C8ABC8800FDDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDAB06FF1C8ABC8800FDDBD2 /* OpenSign.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDAB07001C8ABC8800FDDBD2 /* OpenSign.xcdatamodel */,
+			);
+			currentVersion = CDAB07001C8ABC8800FDDBD2 /* OpenSign.xcdatamodel */;
+			path = OpenSign.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDAB06E81C8ABC8800FDDBD2 /* Project object */;
+}
